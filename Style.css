@@ -15,6 +15,7 @@ button {
   border-radius: 1px;
    cursor: pointer;
 }
+.login {cursor: pointer;}
 header nav {
   width: 50vw;
   margin: auto;
@@ -96,6 +97,10 @@ cursor: pointer;
 #grow {
   text-align: center;
 }
+#grow #content #texth1, #texth3 {
+  padding-top: 30px;
+  color: white;
+}
 
 /* background Colors */
 .bg-grey{
@@ -113,6 +118,7 @@ cursor: pointer;
 .clear{
   clear: both;
 }
+
 * {
   box-sizing: border-box;
   margin: 0;
