@@ -13,6 +13,7 @@ button {
   width: 100px;
   height: 30px;
   border-radius: 1px;
+   cursor: pointer;
 }
 header nav {
   width: 50vw;
@@ -41,8 +42,9 @@ nav *{
 
 nav .menu :hover {
   background-color: lightgrey;
-
+cursor: pointer;
 }
+
 .contact{
   position: relative;
   width: 50vw;
