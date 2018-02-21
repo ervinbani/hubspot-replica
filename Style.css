@@ -123,19 +123,20 @@ cursor: pointer;
   width: 23%;
   height: 100%;
   border-top: 1px solid white;
-
-
   font-size: 30px;
   margin-top: 0;
   margin-left: -5px;
+  color: white;
 }
 #r1c1, #r1c2, #r1c3,#r1c4{
   width: 23%;
   height: 100%;
   font-size: 30px;
+  color: white;
   font-size: 30px;
   margin-top: 0;
   margin-left: -5px;
+  padding-top: 30px;
 
 }
 #r1c1, #r1c2, #r1c3{
