@@ -27,11 +27,15 @@ header nav {
  height: 70px;
  line-height: 70px;
 }
+.containercontact #Lenguage, #sales{
+  cursor: pointer;
+}
 nav *{
  display: inline-block;
 }
 .logo{
  float: left;
+ cursor: pointer;
 }
 .menu{
  float: right;
