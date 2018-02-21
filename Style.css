@@ -108,24 +108,32 @@ cursor: pointer;
 }
 .row{
   width: 100%;
-  margin: auto;
   height: 50%;
-  vertical-align: middle;
-  position: relative;
+
 
 }
+.row {
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+}
 .row *{
-  border-right: 1px solid white;
+  border: 1px solid white;
   display: inline-block;
 }
 #r2c1, #r2c2, #r2c3, #r2c4{
-  width: 200px;
-  high: 200px;
+  width: 23%;
+  height: 100%;
   border-top: 1px solid white;
+  font-size: 30px;
+  margin-top: 0;
 }
 #r1c1, #r1c2, #r1c3, #r1c4{
-  width: 200px;
-  high: 20%;
+  width: 23%;
+  height: 100%;
+  font-size: 30px;
+  font-size: 30px;
+  margin-top: 0;
 
 }
 
