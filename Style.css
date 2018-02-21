@@ -1,0 +1,84 @@
+.containercontact{
+    background-color: lightgrey;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 70px;
+    line-height: 70px;
+    z-index: 5;
+}
+header nav {
+  width: 50vw;
+  margin: auto;
+  height: 70px;
+  line-height: 70px;
+}
+.contact{
+  position: relative;
+  width: 50vw;
+  margin: auto;
+}
+.contact *{
+  display: inline-block;
+}
+.rightcont{
+  position: absolute;
+  right: 0;
+}
+.block {
+  height: 600px;
+}
+
+.block .content {
+  width: 70vw;
+  margin: auto;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+}
+
+.block .content .left{
+  width: 50%;
+  float: left;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+}
+
+.block .content .right{
+  width: 50%;
+  float: right;
+  position: relative;
+  top: calc(100% / 2);
+  transform: translateY(-50%);
+}
+
+#marketing img{
+  width: 100%;
+}
+
+#grow {
+  text-align: center;
+}
+
+/* background Colors */
+.bg-grey{
+  background: #f2f5f8 url(http://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/new-2017__state3-circles-bg.svg) 0 0 no-repeat
+}
+
+.bg-orange{
+  background: orange;
+}
+
+[data-background="gradient-green"]{
+      background-image: linear-gradient(0deg,#00a4bd,#00bda5);
+}
+
+.clear{
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
